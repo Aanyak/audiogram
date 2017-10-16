@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7982C931F3CF1290081353B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7982C921F3CF1290081353B /* AppDelegate.swift */; };
+		C7982C951F3CF1290081353B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7982C941F3CF1290081353B /* ViewController.swift */; };
+		C7982C981F3CF1290081353B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7982C961F3CF1290081353B /* Main.storyboard */; };
+		C7982C9A1F3CF1290081353B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7982C991F3CF1290081353B /* Assets.xcassets */; };
+		C7982C9D1F3CF1290081353B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7982C9B1F3CF1290081353B /* LaunchScreen.storyboard */; };
+		C7982CA71F3CF8BB0081353B /* 1kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CA61F3CF8BB0081353B /* 1kHz.wav */; };
+		C7982CA91F3D26DD0081353B /* 74Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CA81F3D26DD0081353B /* 74Hz.wav */; };
+		C7982CB31F3D26F90081353B /* 115Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CAA1F3D26F90081353B /* 115Hz.wav */; };
+		C7982CB41F3D26F90081353B /* 178Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CAB1F3D26F90081353B /* 178Hz.wav */; };
+		C7982CB51F3D26F90081353B /* 274Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CAC1F3D26F90081353B /* 274Hz.wav */; };
+		C7982CB61F3D26F90081353B /* 422Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CAD1F3D26F90081353B /* 422Hz.wav */; };
+		C7982CB71F3D26F90081353B /* 650Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CAE1F3D26F90081353B /* 650Hz.wav */; };
+		C7982CB81F3D26F90081353B /* 1538Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CAF1F3D26F90081353B /* 1538Hz.wav */; };
+		C7982CB91F3D26F90081353B /* 2366Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CB01F3D26F90081353B /* 2366Hz.wav */; };
+		C7982CBA1F3D26F90081353B /* 3640Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CB11F3D26F90081353B /* 3640Hz.wav */; };
+		C7982CBB1F3D26FA0081353B /* 5600Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CB21F3D26F90081353B /* 5600Hz.wav */; };
+		C7982CBE1F3D270F0081353B /* 8615Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CBC1F3D270F0081353B /* 8615Hz.wav */; };
+		C7982CBF1F3D270F0081353B /* 13253Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = C7982CBD1F3D270F0081353B /* 13253Hz.wav */; };
+		C7982CC11F3E1E9F0081353B /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7982CC01F3E1E9F0081353B /* HelpViewController.swift */; };
+		C7982CC31F3E1ECF0081353B /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7982CC21F3E1ECF0081353B /* FiltersViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7982C8F1F3CF1290081353B /* AudiogramTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiogramTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7982C921F3CF1290081353B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7982C941F3CF1290081353B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7982C971F3CF1290081353B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7982C991F3CF1290081353B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7982C9C1F3CF1290081353B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7982C9E1F3CF1290081353B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7982CA61F3CF8BB0081353B /* 1kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 1kHz.wav; path = ../../../Documents/MATLAB/1kHz.wav; sourceTree = "<group>"; };
+		C7982CA81F3D26DD0081353B /* 74Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 74Hz.wav; path = ../../../Documents/MATLAB/74Hz.wav; sourceTree = "<group>"; };
+		C7982CAA1F3D26F90081353B /* 115Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 115Hz.wav; path = ../../../Documents/MATLAB/115Hz.wav; sourceTree = "<group>"; };
+		C7982CAB1F3D26F90081353B /* 178Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 178Hz.wav; path = ../../../Documents/MATLAB/178Hz.wav; sourceTree = "<group>"; };
+		C7982CAC1F3D26F90081353B /* 274Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 274Hz.wav; path = ../../../Documents/MATLAB/274Hz.wav; sourceTree = "<group>"; };
+		C7982CAD1F3D26F90081353B /* 422Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 422Hz.wav; path = ../../../Documents/MATLAB/422Hz.wav; sourceTree = "<group>"; };
+		C7982CAE1F3D26F90081353B /* 650Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 650Hz.wav; path = ../../../Documents/MATLAB/650Hz.wav; sourceTree = "<group>"; };
+		C7982CAF1F3D26F90081353B /* 1538Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 1538Hz.wav; path = ../../../Documents/MATLAB/1538Hz.wav; sourceTree = "<group>"; };
+		C7982CB01F3D26F90081353B /* 2366Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 2366Hz.wav; path = ../../../Documents/MATLAB/2366Hz.wav; sourceTree = "<group>"; };
+		C7982CB11F3D26F90081353B /* 3640Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 3640Hz.wav; path = ../../../Documents/MATLAB/3640Hz.wav; sourceTree = "<group>"; };
+		C7982CB21F3D26F90081353B /* 5600Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 5600Hz.wav; path = ../../../Documents/MATLAB/5600Hz.wav; sourceTree = "<group>"; };
+		C7982CBC1F3D270F0081353B /* 8615Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 8615Hz.wav; path = ../../../Documents/MATLAB/8615Hz.wav; sourceTree = "<group>"; };
+		C7982CBD1F3D270F0081353B /* 13253Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 13253Hz.wav; path = ../../../Documents/MATLAB/13253Hz.wav; sourceTree = "<group>"; };
+		C7982CC01F3E1E9F0081353B /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		C7982CC21F3E1ECF0081353B /* FiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7982C8C1F3CF1290081353B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7982C861F3CF1290081353B = {
+			isa = PBXGroup;
+			children = (
+				C7982C911F3CF1290081353B /* AudiogramTestApp */,
+				C7982C901F3CF1290081353B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7982C901F3CF1290081353B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7982C8F1F3CF1290081353B /* AudiogramTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7982C911F3CF1290081353B /* AudiogramTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				C7982C921F3CF1290081353B /* AppDelegate.swift */,
+				C7982C941F3CF1290081353B /* ViewController.swift */,
+				C7982CC01F3E1E9F0081353B /* HelpViewController.swift */,
+				C7982CC21F3E1ECF0081353B /* FiltersViewController.swift */,
+				C7982CBC1F3D270F0081353B /* 8615Hz.wav */,
+				C7982CBD1F3D270F0081353B /* 13253Hz.wav */,
+				C7982CAA1F3D26F90081353B /* 115Hz.wav */,
+				C7982CAB1F3D26F90081353B /* 178Hz.wav */,
+				C7982CAC1F3D26F90081353B /* 274Hz.wav */,
+				C7982CAD1F3D26F90081353B /* 422Hz.wav */,
+				C7982CAE1F3D26F90081353B /* 650Hz.wav */,
+				C7982CAF1F3D26F90081353B /* 1538Hz.wav */,
+				C7982CB01F3D26F90081353B /* 2366Hz.wav */,
+				C7982CB11F3D26F90081353B /* 3640Hz.wav */,
+				C7982CB21F3D26F90081353B /* 5600Hz.wav */,
+				C7982CA61F3CF8BB0081353B /* 1kHz.wav */,
+				C7982C961F3CF1290081353B /* Main.storyboard */,
+				C7982CA81F3D26DD0081353B /* 74Hz.wav */,
+				C7982C991F3CF1290081353B /* Assets.xcassets */,
+				C7982C9B1F3CF1290081353B /* LaunchScreen.storyboard */,
+				C7982C9E1F3CF1290081353B /* Info.plist */,
+			);
+			path = AudiogramTestApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7982C8E1F3CF1290081353B /* AudiogramTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7982CA11F3CF1290081353B /* Build configuration list for PBXNativeTarget "AudiogramTestApp" */;
+			buildPhases = (
+				C7982C8B1F3CF1290081353B /* Sources */,
+				C7982C8C1F3CF1290081353B /* Frameworks */,
+				C7982C8D1F3CF1290081353B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudiogramTestApp;
+			productName = AudiogramTestApp;
+			productReference = C7982C8F1F3CF1290081353B /* AudiogramTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7982C871F3CF1290081353B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = testCompany;
+				TargetAttributes = {
+					C7982C8E1F3CF1290081353B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SHK25WNYHL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7982C8A1F3CF1290081353B /* Build configuration list for PBXProject "AudiogramTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7982C861F3CF1290081353B;
+			productRefGroup = C7982C901F3CF1290081353B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7982C8E1F3CF1290081353B /* AudiogramTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7982C8D1F3CF1290081353B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7982CB61F3D26F90081353B /* 422Hz.wav in Resources */,
+				C7982CB91F3D26F90081353B /* 2366Hz.wav in Resources */,
+				C7982C9D1F3CF1290081353B /* LaunchScreen.storyboard in Resources */,
+				C7982CB71F3D26F90081353B /* 650Hz.wav in Resources */,
+				C7982CB41F3D26F90081353B /* 178Hz.wav in Resources */,
+				C7982CBB1F3D26FA0081353B /* 5600Hz.wav in Resources */,
+				C7982CBA1F3D26F90081353B /* 3640Hz.wav in Resources */,
+				C7982CBF1F3D270F0081353B /* 13253Hz.wav in Resources */,
+				C7982CBE1F3D270F0081353B /* 8615Hz.wav in Resources */,
+				C7982CA91F3D26DD0081353B /* 74Hz.wav in Resources */,
+				C7982CA71F3CF8BB0081353B /* 1kHz.wav in Resources */,
+				C7982CB51F3D26F90081353B /* 274Hz.wav in Resources */,
+				C7982C9A1F3CF1290081353B /* Assets.xcassets in Resources */,
+				C7982CB81F3D26F90081353B /* 1538Hz.wav in Resources */,
+				C7982CB31F3D26F90081353B /* 115Hz.wav in Resources */,
+				C7982C981F3CF1290081353B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7982C8B1F3CF1290081353B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7982C951F3CF1290081353B /* ViewController.swift in Sources */,
+				C7982CC11F3E1E9F0081353B /* HelpViewController.swift in Sources */,
+				C7982CC31F3E1ECF0081353B /* FiltersViewController.swift in Sources */,
+				C7982C931F3CF1290081353B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7982C961F3CF1290081353B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7982C971F3CF1290081353B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7982C9B1F3CF1290081353B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7982C9C1F3CF1290081353B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7982C9F1F3CF1290081353B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7982CA01F3CF1290081353B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7982CA21F3CF1290081353B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SHK25WNYHL;
+				INFOPLIST_FILE = AudiogramTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testCompany.TestApp.AudiogramTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C7982CA31F3CF1290081353B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SHK25WNYHL;
+				INFOPLIST_FILE = AudiogramTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testCompany.TestApp.AudiogramTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7982C8A1F3CF1290081353B /* Build configuration list for PBXProject "AudiogramTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7982C9F1F3CF1290081353B /* Debug */,
+				C7982CA01F3CF1290081353B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7982CA11F3CF1290081353B /* Build configuration list for PBXNativeTarget "AudiogramTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7982CA21F3CF1290081353B /* Debug */,
+				C7982CA31F3CF1290081353B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7982C871F3CF1290081353B /* Project object */;
+}
