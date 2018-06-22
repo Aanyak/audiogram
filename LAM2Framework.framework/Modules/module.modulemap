@@ -1,0 +1,11 @@
+framework module LAM2Framework {
+  umbrella header "LAM2Framework.h"
+
+  export *
+  module * { export * }
+}
+
+module LAM2Framework.Swift {
+    header "LAM2Framework-Swift.h"
+    requires objc
+}

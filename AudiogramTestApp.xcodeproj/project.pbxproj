@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C794F4102071F687002DFB71 /* LAM2Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C794F40F2071F687002DFB71 /* LAM2Framework.framework */; };
+		C794F4132072E898002DFB71 /* LAM2Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C794F4112072E897002DFB71 /* LAM2Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C7982C931F3CF1290081353B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7982C921F3CF1290081353B /* AppDelegate.swift */; };
 		C7982C951F3CF1290081353B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7982C941F3CF1290081353B /* ViewController.swift */; };
 		C7982C981F3CF1290081353B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7982C961F3CF1290081353B /* Main.storyboard */; };
@@ -29,7 +31,23 @@
 		C7982CC31F3E1ECF0081353B /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7982CC21F3E1ECF0081353B /* FiltersViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C794F4142072E898002DFB71 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C794F4132072E898002DFB71 /* LAM2Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C794F40F2071F687002DFB71 /* LAM2Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LAM2Framework.framework; path = ../../../../../Desktop/BiQuad/LAM2Framework.framework; sourceTree = "<group>"; };
+		C794F4112072E897002DFB71 /* LAM2Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LAM2Framework.framework; sourceTree = "<group>"; };
 		C7982C8F1F3CF1290081353B /* AudiogramTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudiogramTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7982C921F3CF1290081353B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7982C941F3CF1290081353B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C794F4102071F687002DFB71 /* LAM2Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +87,8 @@
 		C7982C861F3CF1290081353B = {
 			isa = PBXGroup;
 			children = (
+				C794F40F2071F687002DFB71 /* LAM2Framework.framework */,
+				C794F4112072E897002DFB71 /* LAM2Framework.framework */,
 				C7982C911F3CF1290081353B /* AudiogramTestApp */,
 				C7982C901F3CF1290081353B /* Products */,
 			);
@@ -119,6 +140,7 @@
 				C7982C8B1F3CF1290081353B /* Sources */,
 				C7982C8C1F3CF1290081353B /* Frameworks */,
 				C7982C8D1F3CF1290081353B /* Resources */,
+				C794F4142072E898002DFB71 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +344,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SHK25WNYHL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AudiogramTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testCompany.TestApp.AudiogramTestApp;
@@ -335,6 +361,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SHK25WNYHL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AudiogramTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testCompany.TestApp.AudiogramTestApp;

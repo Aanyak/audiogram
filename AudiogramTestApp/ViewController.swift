@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 
+
 class ViewController: UIViewController {
     var ap1 = AVAudioPlayer()
     var ap2 = AVAudioPlayer()
@@ -230,8 +231,7 @@ class ViewController: UIViewController {
         
         txtFile(fileName: "file", value: biquads)
         
-        //convert gain to linear
-        //convertLinear()
+        
     }
     
     @IBAction func btn70(_ sender: Any) {
@@ -374,16 +374,23 @@ class ViewController: UIViewController {
         for val in sliderVals{
             dBVals.append(Double(-40.0+(80.0*val)))
         }
+        print("dbvals")
         print(dBVals)
     }
     
-    func gain(){
+    /*func gain(){
         var i = 0;
         for val in dBVals{
             gainsdB.append(val + (ELC[i])+ELC1000)
             i = i+1
         }
         print(gainsdB)
+    }*/
+    
+    func gain(){
+        for val in dBVals{
+            gainsdB.append(val)
+        }
     }
     
     func convertLinear(){
@@ -418,7 +425,7 @@ class ViewController: UIViewController {
     }
     
     func biquad(frequency:Int, gain:Double, q:Int)->[Double]{
-        let sr = 48000.0
+        let sr = 1536000.0
         
         
         let omega = (2.0*Double.pi*Double(frequency))/sr
@@ -442,6 +449,14 @@ class ViewController: UIViewController {
         let cc: [Double] = bb + aa
         return cc
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "MySegueID" {
+            if let destination = segue.destination as? FiltersViewController {
+                destination.params = self.params
+            }
+        }
     }
     
     //calculates gain
